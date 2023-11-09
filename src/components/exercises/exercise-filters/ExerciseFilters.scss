@@ -1,0 +1,22 @@
+.exercise-filters {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 20px; // Ajouter un espace entre les contrôles de filtre
+
+  .exercise-filters__control {
+    width: 100%;
+
+    .MuiInputLabel-outlined {
+      font-weight: bold;
+    }
+
+    .MuiSelect-outlined {
+      margin-top: 5px;
+    }
+
+    .MuiSvgIcon-root {
+      color: #4CAF50; // Couleur pour les icônes de filtre
+    }
+  }
+}

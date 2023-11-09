@@ -1,0 +1,41 @@
+.exercise-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+  
+    &__info {
+      display: flex;
+      flex-direction: column;
+  
+      h3 {
+        margin: 0;
+        font-size: 1.1rem;
+        font-weight: bold;
+      }
+  
+      p {
+        margin: 0;
+        font-size: 0.9rem;
+      }
+  
+      .MuiSvgIcon-root {
+        margin-top: 4px;
+        cursor: pointer;
+        transition: color 0.3s;
+  
+        &:hover {
+          color: #555;
+        }
+      }
+    }
+  
+    &.selected {
+      background-color: #e0f7fa;
+    }
+  }
+  

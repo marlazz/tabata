@@ -2,16 +2,18 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/home/Home.tsx";
 import "./App.scss";
-import Settings2 from "./pages/settings2/Settings2.tsx";
 import BG from "./assets/images/bg-mobile.png";
+import ExerciceList from "./pages/create-session/CreateSession.tsx";
+import SessionPage from "./pages/session/SessionPage.tsx";
 
 function App() {
   return (
     <Router>
       <div className="app">
         <Routes>
-          <Route path="/settings" element={<Settings2 />} />
           <Route path="/" element={<Home />} />
+          <Route path="/create-session" element={<ExerciceList />} />
+          <Route path="/session" element={<SessionPage />} />
         </Routes>
       </div>
     </Router>

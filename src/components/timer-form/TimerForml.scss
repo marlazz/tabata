@@ -1,0 +1,26 @@
+.create-session__timer-settings {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  
+    .MuiTextField-root {
+      width: 100%;
+      margin-top: 10px;
+  
+      .MuiInputAdornment-root {
+        font-weight: bold;
+        font-size: 0.8em;
+      }
+    }
+  
+    // Styles for label
+    .MuiInputLabel-root {
+      font-size: 1em;
+    }
+  
+    // Styles for input placeholder
+    .MuiInputBase-input::placeholder {
+      font-style: italic;
+    }
+  }
+  

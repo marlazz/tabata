@@ -1,0 +1,450 @@
+[
+  {
+    "id": "1",
+    "name": "Push-ups",
+    "category": "Strength",
+    "description": "Exercice de base pour les pectoraux, triceps et épaules.",
+    "difficulty": "Beginner",
+    "muscleGroup": ["Chest", "Triceps", "Shoulders"]
+  },
+  {
+    "id": "2",
+    "name": "Pull-ups",
+    "category": "Strength",
+    "description": "Renforce le dos, les biceps et les avant-bras.",
+    "difficulty": "Intermediate",
+    "muscleGroup": ["Back", "Biceps", "Forearms"]
+  },
+  {
+    "id": "3",
+    "name": "Squats",
+    "category": "Strength",
+    "description": "Travaille les quadriceps, les ischio-jambiers et les fessiers.",
+    "difficulty": "Beginner",
+    "muscleGroup": ["Quadriceps", "Hamstrings", "Glutes"]
+  },
+  {
+    "id": "4",
+    "name": "Deadlifts",
+    "category": "Strength",
+    "description": "Améliore la force de préhension et sollicite le bas du dos et les jambes.",
+    "difficulty": "Advanced",
+    "muscleGroup": ["Lower Back", "Legs"]
+  },
+  {
+    "id": "5",
+    "name": "Bench Press",
+    "category": "Strength",
+    "description": "Exercice pour le développement de la poitrine, des triceps et des épaules.",
+    "difficulty": "Intermediate",
+    "muscleGroup": ["Chest", "Triceps", "Shoulders"]
+  },
+  {
+    "id": "6",
+    "name": "Plank",
+    "category": "Core",
+    "description": "Renforce les muscles abdominaux et stabilise le tronc.",
+    "difficulty": "Beginner",
+    "muscleGroup": ["Core"]
+  },
+  {
+    "id": "7",
+    "name": "Russian Twists",
+    "category": "Core",
+    "description": "Cible les obliques et améliore la rotation du tronc.",
+    "difficulty": "Intermediate",
+    "muscleGroup": ["Obliques"]
+  },
+  {
+    "id": "8",
+    "name": "Leg Raises",
+    "category": "Core",
+    "description": "Renforce les muscles abdominaux inférieurs.",
+    "difficulty": "Beginner",
+    "muscleGroup": ["Lower Abs"]
+  },
+  {
+    "id": "9",
+    "name": "Burpees",
+    "category": "Cardio",
+    "description": "Exercice complet qui améliore l'endurance et la force.",
+    "difficulty": "Intermediate",
+    "muscleGroup": ["Full Body"]
+  },
+  {
+    "id": "10",
+    "name": "Jumping Jacks",
+    "category": "Cardio",
+    "description": "Exercice cardiovasculaire pour améliorer l'endurance.",
+    "difficulty": "Beginner",
+    "muscleGroup": ["Full Body"]
+  },
+  {
+    "id": "11",
+    "name": "Mountain Climbers",
+    "category": "Cardio",
+    "description": "Développe l'agilité et renforce les muscles du tronc.",
+    "difficulty": "Intermediate",
+    "muscleGroup": ["Core"]
+  },
+  {
+    "id": "12",
+    "name": "High Knees",
+    "category": "Cardio",
+    "description": "Améliore la coordination et la puissance des jambes.",
+    "difficulty": "Beginner",
+    "muscleGroup": ["Legs"]
+  },
+  {
+    "id": "13",
+    "name": "Lunges",
+    "category": "Strength",
+    "description": "Renforce les jambes et améliore l'équilibre.",
+    "difficulty": "Beginner",
+    "muscleGroup": ["Legs"]
+  },
+  {
+    "id": "14",
+    "name": "Box Jumps",
+    "category": "Plyometrics",
+    "description": "Améliore l'explosivité et la puissance des jambes.",
+    "difficulty": "Advanced",
+    "muscleGroup": ["Legs"]
+  },
+  {
+    "id": "15",
+    "name": "Skipping Rope",
+    "category": "Cardio",
+    "description": "Améliore la coordination et l'endurance cardiovasculaire.",
+    "difficulty": "Beginner",
+    "muscleGroup": ["Cardiovascular System"]
+  },
+  {
+    "id": "16",
+    "name": "Bicycle Crunches",
+    "category": "Core",
+    "description": "Cible les abdominaux et les obliques avec un mouvement de pédalage.",
+    "difficulty": "Intermediate",
+    "muscleGroup": ["Abs", "Obliques"]
+  },
+  {
+    "id": "17",
+    "name": "Wall Sits",
+    "category": "Strength",
+    "description": "Exercice isométrique pour les quadriceps.",
+    "difficulty": "Intermediate",
+    "muscleGroup": ["Quadriceps"]
+  },
+  {
+    "id": "18",
+    "name": "Calf Raises",
+    "category": "Strength",
+    "description": "Renforce les mollets et améliore l'équilibre.",
+    "difficulty": "Beginner",
+    "muscleGroup": ["Calves"]
+  },
+  {
+    "id": "19",
+    "name": "Tricep Dips",
+    "category": "Strength",
+    "description": "Cible les triceps en utilisant le poids du corps.",
+    "difficulty": "Beginner",
+    "muscleGroup": ["Triceps"]
+  },
+  {
+    "id": "20",
+    "name": "Arm Circles",
+    "category": "Mobility",
+    "description": "Améliore la flexibilité et la force des épaules.",
+    "difficulty": "Beginner",
+    "muscleGroup": ["Shoulders"]
+  },
+  {
+    "id": "21",
+    "name": "Flutter Kicks",
+    "category": "Core",
+    "description": "Renforce les abdominaux inférieurs et les fléchisseurs de la hanche.",
+    "difficulty": "Intermediate",
+    "muscleGroup": ["Abs", "Hip Flexors"]
+  },
+  {
+    "id": "22",
+    "name": "Superman",
+    "category": "Strength",
+    "description": "Renforce les muscles du bas du dos et les fessiers.",
+    "difficulty": "Beginner",
+    "muscleGroup": ["Lower Back", "Glutes"]
+  },
+  {
+    "id": "23",
+    "name": "Glute Bridge",
+    "category": "Strength",
+    "description": "Cible les fessiers et renforce les muscles du bas du dos.",
+    "difficulty": "Beginner",
+    "muscleGroup": ["Glutes", "Lower Back"]
+  },
+  {
+    "id": "24",
+    "name": "Side Plank",
+    "category": "Core",
+    "description": "Renforce les obliques et stabilise la colonne vertébrale.",
+    "difficulty": "Intermediate",
+    "muscleGroup": ["Obliques", "Core"]
+  },
+  {
+    "id": "25",
+    "name": "Dumbbell Rows",
+    "category": "Strength",
+    "description": "Renforce le dos, les épaules et les biceps.",
+    "difficulty": "Intermediate",
+    "muscleGroup": ["Back", "Shoulders", "Biceps"]
+  },
+  {
+    "id": "30",
+    "name": "Pilates",
+    "category": "Flexibility",
+    "description": "Renforce le tronc et améliore la flexibilité générale.",
+    "difficulty": "Varied",
+    "muscleGroup": ["Core", "Full Body"]
+  },
+  {
+    "id": "31",
+    "name": "Russian Twists",
+    "category": "Core",
+    "description": "Cible les obliques avec un mouvement de torsion.",
+    "difficulty": "Intermediate",
+    "muscleGroup": ["Obliques"]
+  },
+  {
+    "id": "32",
+    "name": "Reverse Lunges",
+    "category": "Legs",
+    "description": "Favorise l'équilibre et la force dans les jambes.",
+    "difficulty": "Intermediate",
+    "muscleGroup": ["Legs"]
+  },
+  {
+    "id": "33",
+    "name": "Renegade Rows",
+    "category": "Strength",
+    "description": "Combine un exercice de planche avec un mouvement de tirage pour travailler le dos et le noyau.",
+    "difficulty": "Advanced",
+    "muscleGroup": ["Back", "Core"]
+  },
+  {
+    "id": "34",
+    "name": "Box Jumps",
+    "category": "Plyometrics",
+    "description": "Améliore la puissance explosive des jambes.",
+    "difficulty": "Intermediate",
+    "muscleGroup": ["Legs"]
+  },
+  {
+    "id": "35",
+    "name": "Skaters",
+    "category": "Cardio",
+    "description": "Mouvements latéraux qui imitent le mouvement du patinage pour un cardio dynamique.",
+    "difficulty": "Intermediate",
+    "muscleGroup": ["Cardiovascular System", "Lower Body"]
+  },
+  {
+    "id": "36",
+    "name": "High Knees",
+    "category": "Cardio",
+    "description": "Exercice cardiovasculaire qui augmente la fréquence cardiaque et renforce les jambes.",
+    "difficulty": "Beginner",
+    "muscleGroup": ["Legs", "Cardiovascular System"]
+  },
+  {
+    "id": "37",
+    "name": "Tuck Jumps",
+    "category": "Plyometrics",
+    "description": "Saute en tirant les genoux vers la poitrine pour améliorer la puissance et l'agilité.",
+    "difficulty": "Intermediate",
+    "muscleGroup": ["Lower Body", "Core"]
+  },
+  {
+    "id": "38",
+    "name": "Burpees",
+    "category": "Full Body",
+    "description": "Un exercice complet qui améliore l'endurance et la force.",
+    "difficulty": "Intermediate",
+    "muscleGroup": ["Full Body"]
+  },
+  {
+    "id": "39",
+    "name": "Mountain Climbers",
+    "category": "Cardio",
+    "description": "Simule l'escalade de montagne pour un exercice cardio intense.",
+    "difficulty": "Beginner to Intermediate",
+    "muscleGroup": ["Core", "Cardiovascular System"]
+  },
+  {
+    "id": "40",
+    "name": "Jump Rope",
+    "category": "Cardio",
+    "description": "Excellent pour la santé cardiovasculaire et la coordination.",
+    "difficulty": "Beginner to Advanced",
+    "muscleGroup": ["Full Body"]
+  },
+  {
+    "id": "41",
+    "name": "Deadlifts",
+    "category": "Strength",
+    "description": "Un exercice fondamental pour développer la force du dos et des jambes.",
+    "difficulty": "Intermediate to Advanced",
+    "muscleGroup": ["Back", "Legs"]
+  },
+  {
+    "id": "42",
+    "name": "Leg Press",
+    "category": "Legs",
+    "description": "Renforce les quadriceps, les ischio-jambiers et les fessiers.",
+    "difficulty": "Beginner to Intermediate",
+    "muscleGroup": ["Quadriceps", "Hamstrings", "Glutes"]
+  },
+  {
+    "id": "43",
+    "name": "Leg Curls",
+    "category": "Legs",
+    "description": "Isolation des ischio-jambiers pour la force et la tonification.",
+    "difficulty": "Beginner",
+    "muscleGroup": ["Hamstrings"]
+  },
+  {
+    "id": "44",
+    "name": "Leg Extensions",
+    "category": "Legs",
+    "description": "Cible les quadriceps pour la définition et la force.",
+    "difficulty": "Beginner",
+    "muscleGroup": ["Quadriceps"]
+  },
+  {
+    "id": "45",
+    "name": "Lateral Raises",
+    "category": "Shoulders",
+    "description": "Isolation des muscles des épaules pour une tonification et une force accrues.",
+    "difficulty": "Beginner to Intermediate",
+    "muscleGroup": ["Shoulders"]
+  },
+  {
+    "id": "46",
+    "name": "Calf Raises",
+    "category": "Legs",
+    "description": "Renforce et tonifie les mollets.",
+    "difficulty": "Beginner",
+    "muscleGroup": ["Calves"]
+  },
+  {
+    "id": "47",
+    "name": "Seated Leg Tucks",
+    "category": "Core",
+    "description": "Travaillez vos abdominaux en position assise.",
+    "difficulty": "Intermediate",
+    "muscleGroup": ["Core"]
+  },
+  {
+    "id": "48",
+    "name": "Kettlebell Swings",
+    "category": "Full Body",
+    "description": "Améliore la force fonctionnelle et la puissance des hanches.",
+    "difficulty": "Intermediate",
+    "muscleGroup": ["Hips", "Back", "Shoulders"]
+  },
+  {
+    "id": "49",
+    "name": "Arnold Press",
+    "category": "Shoulders",
+    "description": "Un exercice d'épaule complet qui combine une rotation avec une pression.",
+    "difficulty": "Intermediate",
+    "muscleGroup": ["Shoulders"]
+  },
+  {
+    "id": "50",
+    "name": "Wall Sits",
+    "category": "Legs",
+    "description": "Renforce l'endurance des muscles des jambes.",
+    "difficulty": "Beginner to Intermediate",
+    "muscleGroup": ["Quadriceps"]
+  },
+  {
+    "id": "51",
+    "name": "Lunges",
+    "category": "Legs",
+    "description": "Renforce les jambes et améliore l'équilibre.",
+    "difficulty": "Beginner to Intermediate",
+    "muscleGroup": ["Quadriceps", "Hamstrings", "Glutes"]
+  },
+  {
+    "id": "52",
+    "name": "Split Squats",
+    "category": "Legs",
+    "description": "Squat unilatéral pour renforcer chaque jambe individuellement.",
+    "difficulty": "Intermediate",
+    "muscleGroup": ["Quadriceps", "Hamstrings", "Glutes"]
+  },
+  {
+    "id": "53",
+    "name": "Hanging Leg Raises",
+    "category": "Core",
+    "description": "Un exercice intense pour les abdominaux inférieurs.",
+    "difficulty": "Intermediate to Advanced",
+    "muscleGroup": ["Lower Abs", "Hip Flexors"]
+  },
+  {
+    "id": "54",
+    "name": "Good Mornings",
+    "category": "Strength",
+    "description": "Renforce les muscles du dos et les ischio-jambiers.",
+    "difficulty": "Intermediate",
+    "muscleGroup": ["Lower Back", "Hamstrings"]
+  },
+  {
+    "id": "55",
+    "name": "Bulgarian Split Squats",
+    "category": "Legs",
+    "description": "Squat en profondeur pour un travail intensif des jambes et des fessiers.",
+    "difficulty": "Intermediate",
+    "muscleGroup": ["Quadriceps", "Hamstrings", "Glutes"]
+  },
+  {
+    "id": "56",
+    "name": "Decline Push-ups",
+    "category": "Upper Body",
+    "description": "Variante des pompes pour cibler davantage les épaules et le haut de la poitrine.",
+    "difficulty": "Intermediate",
+    "muscleGroup": ["Upper Chest", "Shoulders", "Triceps"]
+  },
+  {
+    "id": "57",
+    "name": "Chest Flyes",
+    "category": "Chest",
+    "description": "Étire et renforce les muscles pectoraux.",
+    "difficulty": "Beginner to Intermediate",
+    "muscleGroup": ["Chest"]
+  },
+  {
+    "id": "58",
+    "name": "Lat Pulldowns",
+    "category": "Back",
+    "description": "Travaille la largeur du dos et améliore la force de préhension.",
+    "difficulty": "Beginner to Intermediate",
+    "muscleGroup": ["Lats", "Biceps", "Grip"]
+  },
+  {
+    "id": "59",
+    "name": "Face Pulls",
+    "category": "Shoulders",
+    "description": "Améliore la posture et la santé des épaules.",
+    "difficulty": "Beginner to Intermediate",
+    "muscleGroup": ["Rear Delts", "Upper Back"]
+  },
+  {
+    "id": "60",
+    "name": "Dumbbell Snatch",
+    "category": "Full Body",
+    "description": "Exercice de puissance pour tout le corps qui stimule le système nerveux central.",
+    "difficulty": "Advanced",
+    "muscleGroup": ["Full Body"]
+  }
+]
