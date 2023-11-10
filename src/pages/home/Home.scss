@@ -1,54 +1,37 @@
-// .home {
-//     height: 100vh;
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     justify-content: space-evenly;
-//     padding: 24px;
-//     background-position: center;
-//     background-size: cover;
-//     background-color: black;
-
-//         .home__title {
-//             text-align: center;
-//             line-height: 52px;
-//             color: white;
-//             font-size: 42px;
-//             font-family: Saira, sans-serif;
-//             font-weight: 400;
-
-//         }
-
-//         .home__timer-image {
-//             width: 70%;
-//             height: auto;
-//         }
-
-//         .home__button {
-//             width: auto;
-//             height: auto;
-//             text-align: center;
-//             flex-shrink: 0;
-//             border-radius: 8px;
-//             text-decoration: none;
-//             color: black;
-//             font-size: 20px;
-//             font-weight: 600;
-//             display: flex;
-//             justify-content: center;
-//             align-items: center;
-//             margin-top: 20px;
-//             margin-bottom: 20px;
-//             padding: 5px;
-//             cursor: pointer;
-//             border-radius: 40.5px;
-//             opacity: 0.8;
-//             background: linear-gradient(98deg, #E0FF01 8.5%, #FAFF00 128.01%);
-//             font-family: Saira, sans-serif;
-//             line-height: 140%;
-//             &:hover {
-//                 background: #218838;
-//               }
-        
-//         }
-// }
+.home {
+    background-image: url('../../assets/images/bg-mobile.png');
+    background-size: cover;
+    background-position: center;
+    background-color: var(--color-background-dark);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+  
+    &__title {
+      font-size: 2.5rem;
+      color: #ffffff;
+      margin-bottom: 30px;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    }
+  
+    &__button {
+      background-color: #4caf50;
+      color: #ffffff;
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 25px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: #43a047;
+      }
+    }
+  }
+  

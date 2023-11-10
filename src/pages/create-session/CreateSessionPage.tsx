@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./CreateSession.scss";
+import "./CreateSessionPage.scss";
 import exercises from "../../data/exercices.json";
 import ExerciseFilters from "../../components/exercises/exercise-filters/ExerciseFilters.tsx";
 import ExerciseCard from "../../components/exercises/exercise-card/ExerciseCard.tsx";
@@ -16,7 +16,7 @@ export interface Exercise {
   muscleGroups: string[];
 }
 
-const CreateSession = () => {
+const CreateSessionPage = () => {
   const [selectedExercises, setSelectedExercises] = useState<Exercise[]>([]);
   const [difficultyFilter, setDifficultyFilter] = useState("all");
   const [muscleGroupFilter, setMuscleGroupFilter] = useState("all");
@@ -132,4 +132,4 @@ const CreateSession = () => {
   );
 };
 
-export default CreateSession;
+export default CreateSessionPage;

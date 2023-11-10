@@ -1,49 +1,46 @@
 .create-session__summary {
-    h2 {
-      color: #333;
-      font-size: 1.5em;
-      margin-bottom: 0.5em;
-    }
-  
-    .MuiList-root {
-      background-color: #fff;
-      border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-      overflow: hidden;
-      padding: 0;
-  
-      .MuiListItem-root {
-        border-bottom: 1px solid #e0e0e0;
-        align-items: center;
-        padding: 10px 16px;
-        transition: background-color 0.3s;
-  
-        &:last-child {
-          border-bottom: none;
-        }
-  
-        &:hover {
-          background-color: #f7f7f7;
-        }
-  
-        .MuiListItemText-primary {
-          font-size: 1em; // Taille de la police pour le nom de l'exercice
-          color: #333;
-        }
-  
-        .MuiListItemText-secondary {
-          font-size: 0.8em; // Taille de la police pour la difficulté
-          color: #666;
-        }
-  
-        .MuiIconButton-root {
-          margin-left: 12px; // Espace entre le texte et l'icône de suppression
-        }
-  
-        .MuiSvgIcon-root {
-          color: #f44336; // Couleur de l'icône de suppression
-        }
+  h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .MuiList-root {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+
+    .MuiListItem-root {
+      align-items: center;
+      padding: 12px 16px;
+      transition: background-color 0.3s;
+      border-bottom: 1px solid #e0e0e0;
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      &:hover {
+        background-color: var(--color-background-light);      }
+
+      .MuiListItemText-primary {
+        font-size: 1em;
+        color: #333;
+      }
+
+      .MuiListItemText-secondary {
+        font-size: 0.8em;
+        color: #666;
+      }
+
+      .MuiIconButton-root {
+        margin-left: 12px;
+      }
+
+      .MuiSvgIcon-root {
+        color: #f44336;
       }
     }
   }
-  
+}

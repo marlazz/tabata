@@ -1,41 +1,59 @@
 .exercise-card {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    transition: background-color 0.3s;
-  
-    &__info {
-      display: flex;
-      flex-direction: column;
-  
-      h3 {
-        margin: 0;
-        font-size: 1.1rem;
-        font-weight: bold;
-      }
-  
-      p {
-        margin: 0;
-        font-size: 0.9rem;
-      }
-  
-      .MuiSvgIcon-root {
-        margin-top: 4px;
-        cursor: pointer;
-        transition: color 0.3s;
-  
-        &:hover {
-          color: #555;
-        }
-      }
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+
+  &__info {
+    flex-grow: 1;
+
+    h3 {
+      font-size: 18px;
+      color: #333;
+      margin: 0 0 8px 0;
     }
-  
-    &.selected {
-      background-color: #e0f7fa;
+
+    p {
+      font-size: 14px;
+      color: #666;
     }
   }
-  
+
+  &:hover {
+    box-shadow: 0 4px 8px rgba(var(--color-secondary), 0.2);
+  }
+
+  &.selected {
+    background-color: var(--color-background-light);
+  }
+}
+@media (min-width: 768px) {
+  .exercise-card {
+    // Ajustements pour les tablettes
+    flex-direction: row;
+    align-items: center;
+    
+    h3 {
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .exercise-card {
+    // Ajustements pour les ordinateurs de bureau
+    h3 {
+      font-size: 22px;
+    }
+  }
+}
