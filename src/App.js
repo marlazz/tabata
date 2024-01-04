@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/home/Home.tsx";
-// import "./A.scss";
+import "./App.scss";
 import SessionPage from "./pages/session/SessionPage.tsx";
 import CreateSessionPage from "./pages/create-session/CreateSessionPage.tsx";
 import "../src/styles/global.scss";

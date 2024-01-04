@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 36px;
 
   .exercise-filters__control {
     flex-basis: 100%;
@@ -20,7 +20,7 @@
     }
 
     .MuiSvgIcon-root {
-      color: #4CAF50;
+      color: var(--color-primary);
     }
   }
 }

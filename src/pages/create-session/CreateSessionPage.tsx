@@ -6,7 +6,6 @@ import ExerciseCard from "../../components/exercises/exercise-card/ExerciseCard.
 import SelectedExercisesSection from "../../components/exercises/selected-exercises/SelectedExercises.tsx";
 import { useNavigate } from "react-router-dom";
 import TimerForm from "../../components/timer-form/TimerForm.tsx";
-import { convertTimeToSeconds } from "../../helpers/time.helpers.tsx";
 
 export interface Exercise {
   id: number;
@@ -26,8 +25,8 @@ const CreateSessionPage = () => {
   const navigate = useNavigate();
 
   const handleStartSession = () => {
-    const effortSeconds = convertTimeToSeconds(effortTime);
-    const recoverySeconds = convertTimeToSeconds(recoveryTime);
+    const effortSeconds = parseInt(effortTime) || 0;
+    const recoverySeconds = parseInt(recoveryTime) || 0;
     const totalSessionTime =
       selectedExercises.length * (effortSeconds + recoverySeconds);
 
@@ -40,7 +39,6 @@ const CreateSessionPage = () => {
       },
     });
   };
-
   const handleRemoveExercise = (exerciseId) => {
     setSelectedExercises(
       selectedExercises.filter((ex) => ex.id !== exerciseId)
@@ -83,17 +81,10 @@ const CreateSessionPage = () => {
 
   return (
     <div className="create-session">
-      <h1>Créer sa séance</h1>
-      <div className="create-session__section">
-        <TimerForm
-          effortTime={effortTime}
-          recoveryTime={recoveryTime}
-          setEffortTime={setEffortTime}
-          setRecoveryTime={setRecoveryTime}
-        />
-      </div>
+      <h1>Ma séance</h1>
       {selectedExercises.length > 0 && (
         <div className="create-session__section">
+
           <SelectedExercisesSection
             selectedExercises={selectedExercises}
             handleRemoveExercise={handleRemoveExercise}
@@ -102,12 +93,21 @@ const CreateSessionPage = () => {
             onClick={handleStartSession}
             className="create-session__start-btn"
           >
-            Start Session {">>>"}
+            Commencer
           </button>
         </div>
       )}
+
       <div className="create-session__section">
-        <h2>Choisir les exercices</h2>
+        <TimerForm
+          effortTime={effortTime}
+          recoveryTime={recoveryTime}
+          setEffortTime={setEffortTime}
+          setRecoveryTime={setRecoveryTime}
+        />
+      </div>
+      <div className="create-session__section">
+        <h2 className="create-session__section-title">Exercices</h2>
         <div>
           <ExerciseFilters
             difficultyFilter={difficultyFilter}
@@ -117,7 +117,7 @@ const CreateSessionPage = () => {
             muscleGroupOptions={muscleGroupOptions}
           />
         </div>
-        <div className="create-session__exercise-list">
+        <div>
           {filteredExercises.map((exercise, id) => (
             <ExerciseCard
               key={id}

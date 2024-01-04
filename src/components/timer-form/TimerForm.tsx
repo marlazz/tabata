@@ -10,24 +10,24 @@ import { OutlinedInput } from "@mui/material";
 
 const CustomSelect = styled(Select)(({ theme }) => ({
   "&.MuiSelect-select": {
-    paddingRight: '0px', // Retirer l'espace pour la flèche
+    paddingRight: "0px",
   },
   "& .MuiSvgIcon-root": {
-    // Vous pouvez commenter ou supprimer ces lignes si vous ne voulez pas de flèche
-    // display: "none",
+    display: "none",
   },
   "& .MuiSelect-select.MuiSelect-outlined": {
-    backgroundColor: "var(--color-success)",
+    backgroundColor: "var(--color-primary)",
     color: "#ffffff",
     borderTopRightRadius: theme.shape.borderRadius,
     borderBottomRightRadius: theme.shape.borderRadius,
   },
 }));
+
 interface TimerFormProps {
-  effortTime: number;
-  recoveryTime: number;
-  setEffortTime: (time: number) => void;
-  setRecoveryTime: (time: number) => void;
+  effortTime: string;
+  recoveryTime: string;
+  setEffortTime: (time: string) => void;
+  setRecoveryTime: (time: string) => void;
 }
 
 const TimerInput: FC<{
@@ -84,6 +84,8 @@ const TimerForm: FC<TimerFormProps> = ({
 }) => {
   return (
     <div className="timer-form">
+      <h2 className="timer-form__title">Timer</h2>
+      <p>Pour chaque exercice :</p>
       <TimerInput
         label="Temps d'effort"
         time={effortTime}

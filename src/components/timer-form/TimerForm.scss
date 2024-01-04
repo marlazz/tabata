@@ -1,13 +1,12 @@
 .timer-form {
-  display: flex;
-  flex-direction: column;
-
+  // display: flex;
+  // flex-direction: column;
+  
   .MuiFormControl-root {
-    margin-bottom: 16px;
 
     .MuiOutlinedInput-root {
       position: relative;
-      width: 100%;
+      font-family: 'Poppins', sans-serif;
 
       .MuiInputAdornment-root {
         position: absolute;
@@ -16,24 +15,16 @@
         bottom: 0;
         display: flex;
         align-items: center;
-        background-color: #5cb85c;
         border-top-right-radius: 4px;
         border-bottom-right-radius: 4px;
         cursor: pointer;
-        // width: 7px;
-
-        &:hover {
-          background-color: #4cae4c;
-        }
 
         .MuiSelect-root {
           padding: 0;
-          height: 100%;
-          color: white;
           display: flex;
           align-items: center;
           justify-content: center;
-          width: 100%;
+          border: none;
         }
       }
 
@@ -44,11 +35,17 @@
 
     .MuiInputLabel-root {
       background-color: #fff;
-      padding: 0 4px;
+      padding: 4px;
+      font-family: 'Poppins', sans-serif;
+      font-size: .8rem;
     }
 
     .MuiInputBase-input {
       padding-right: 60px; // Espace pour le sélecteur
+      
+    }
+    .Mui-focused .MuiOutlinedInput-notchedOutline {
+      border-color: #92A3FD;
     }
   }
 }
